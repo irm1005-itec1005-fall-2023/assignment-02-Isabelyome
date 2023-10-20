@@ -1,19 +1,31 @@
-/*
- * Assignment 02
- * CSS FILE
- */
+/*Assignment 02 CSS FILE*/
 
+ /* Background colour of web page */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fbc9ff;
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+/* BODY SYTLES (each section) */
+
+section.hero {
+  color: rgb(34, 33, 35);
+  background-color: rgb(238, 238, 238);
+}
+
+/*Main Logo*/
+section.image1 {
+  width: 350px;
+  padding: 0;
+  margin: 0 auto;
+  border: 0px;
   text-align: center;
-  color: #023047;
+}
+
+/*aliens*/
+section.alien {
+  width: 300 px;
 }

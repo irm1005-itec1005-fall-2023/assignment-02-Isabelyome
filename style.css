@@ -27,5 +27,10 @@ section.image1 {
 
 /*aliens*/
 section.alien {
-  width: 300 px;
+  width: 300px
+}
+
+/*bunnies*/
+section.bunnies {
+  width: 300px;
 }

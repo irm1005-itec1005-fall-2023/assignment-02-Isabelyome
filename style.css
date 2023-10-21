@@ -34,3 +34,36 @@ section.alien {
 section.bunnies {
   width: 300px;
 }
+
+
+ /* HERO SECTION STYLES */
+ main section.hero {
+  padding: 8rem 1rem 1rem 1rem;
+  background-color: rgb(229, 25, 209);
+  border-radius: 1rem;
+}
+
+main section.hero h1 {
+  padding: 0 3rem;
+  font-weight: 700;
+  font-size: 5rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+
+main section.hero .secondary-heading {
+  padding: 4rem 5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+
+main section.hero img {
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  object-position: center center;
+}

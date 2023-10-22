@@ -26,4 +26,34 @@ body {
   margin: 0 rem;
   border: 5 rem;
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.yoda img {
+  width: 400px;
+  align-items: right;
+}
+
+.yoda h2 {
+  margin: auto;
+}
+
+.yoda p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.yoda button {
+  background-color: rgb(216, 197, 234);
+}
+
+.yoda button:hover {
+  background-color: rgb(146, 80, 207);
+  transition: .3s ease all;
+}
+
+/*flexbox*/
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
 }

@@ -84,3 +84,37 @@ body {
   border: 7px solid rgb(219, 195, 240);
 }
 
+/*regular spacer*/
+.spacer {
+width: 100px;
+height: 70px;
+background-color: transparent;
+}
+
+/*spacer for logo*/
+.logo-spacer {
+  width: 100px;
+  height: 900px;
+  background-color: transparent;
+  }
+
+
+.reviews h2{
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(219, 195, 240);
+}
+
+.text-container {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.text-container2 {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(219, 195, 240);
+}

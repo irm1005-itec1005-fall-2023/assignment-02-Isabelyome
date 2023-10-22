@@ -94,27 +94,39 @@ background-color: transparent;
 /*spacer for logo*/
 .logo-spacer {
   width: 100px;
-  height: 900px;
+  height: 1500px;
   background-color: transparent;
   }
 
-
+/* customer review header */
 .reviews h2{
   text-align: center;
   text-shadow: 2px 2px 2px rgb(219, 195, 240);
 }
-
+/* text under logo - changing width */
 .text-container {
   width: 80%;
   max-width: 800px;
   margin: auto;
   padding: 20px;
 }
-
+/* text customer reviews - changing width */
 .text-container2 {
   width: 80%;
   max-width: 800px;
   margin: auto;
   padding: 20px;
   background-color: rgb(219, 195, 240);
+}
+
+/*about us section*/
+.about-us h2 {
+  text-shadow: 2px 2px 2px rgb(219, 195, 240);
+  text-indent: 350px;
+}
+
+.about-us img {
+  width: 300px;
+  height: 450px;
+  margin: 100px;
 }
